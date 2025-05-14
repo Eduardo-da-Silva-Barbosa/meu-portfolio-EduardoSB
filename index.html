@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre Mim | Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho fixo com título e menu de navegação -->
+  <header>
+    <h1 class="titulo-header">Meu Site</h1>
+    <nav>
+      <!-- Links de navegação para todas as páginas do site -->
+      <ul>
+        <li><a href="index.html" class="active">Sobre Mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Primeira seção principal com informações pessoais -->
+  <main class="container primeiro-container">
+    <section class="principal">
+      <h1>Sobre Mim</h1>
+      <!-- Apresentação com imagem e texto descritivo -->
+      <div class="perfil">
+        <img src="imagens/Foto_Perfil.png" alt="Foto_Perfil">
+        <div class="texto-sobre">
+          <p>Olá! Me chamo Eduardo e sou estudante de Ciência de Dados. Tenho grande interesse em desenvolvimento web, bancos de dados e soluções tecnológicas para transformar a realidade das pessoas.</p>
+          <p>Atualmente sou estagiário analista de dados em uma empresa de pagamentos online feita para E-commerces e negócios digitais. Sou um profissional motivado e dedicado, com experiência em Product Experience (Experiência do Produto, PX) e com vendas pelos E-commerce's Mercado Livre e Shopee.</p>
+        </div>
+      </div>
+
+      <!-- Lista com hobbies pessoais -->
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Assistir filmes e séries.</li>
+        <li>Estudar sobre auto conhecimento, comunicação e linguagens de programação.</li>
+        <li>Estar por dentro das novidades do mundo da ciência e tecnologia.</li>
+      </ul>
+    </section>
+
+    <!-- Barra lateral com links complementares -->
+    <aside class="sidebar">
+      <div class="box">
+        <h3>Veja Também</h3>
+        <ul>
+          <li><a href="https://docs.google.com/spreadsheets/d/14RK4f0tEsYM9Z7zW78UhdU0gJj1MsYYd/edit?usp=sharing&ouid=113323396914618009334&rtpof=true&sd=true">Perceptron: modelo de neurônio simples</a></li>
+          <li><a href="https://drive.google.com/drive/folders/1FH-6U6z3c-QN3g-SkfI89irizGyenOGq?usp=sharing">Curso básico de SQL</a></li>
+          <li><a href="https://docs.google.com/document/d/1ksKNOvjcW1LZroEo1WiULnmD8HZCxzEurYYbZVxuDGQ/edit?usp=sharing">Estudo da arquitetura da informação da Netflix</a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Segunda seção com objetivo profissional -->
+  <main class="container segundo-container">
+    <section class="principal">
+      <div class="perfil">
+        <div>
+          <h2>Meu objetivo profissional</h2>
+          <p>Busco oportunidades profissionais que me permitam utilizar minhas habilidades e conhecimentos de forma eficiente. Como já dito, sou um profissional motivado e dedicado, com experiência em Product Experience (Experiência do Produto, PX), já atuei como auxiliar administrativo no setor de e-commerce e hoje sou estagiário analista de dados em uma empresa de pagamentos online. Busco contribuir para o sucesso da equipe, promovendo a troca de conhecimento e o aprendizado contínuo para o desenvolvimento profissional. Estou aberto a desafios e preparado para crescer em um ambiente profissional dinâmico e estimulante.</p>
+          <!-- Botão com link externo para o currículo completo -->
+          <a href="https://docs.google.com/document/d/1JGJV0jKarfbPfMZoOMiSkA1pHN2nRMYryFUYHwO1ANI/edit?usp=sharing" 
+             class="botao-curriculo"
+             target="_blank">
+             Acesse meu currículo completo
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sidebar invisível para manter o alinhamento visual do layout -->
+    <aside class="sidebar ghost-sidebar" aria-hidden="true"></aside>
+  </main>
+</body>
+</html>
